@@ -1,0 +1,471 @@
+/*--Bryant, Samantha - Week 1 Framework--*/
+
+/*----Document-----*/
+
+body{
+	margin: 0 auto;
+	max-width: 76%; /*760px*/
+	font: 75%/1.5em Arial, Helvetica, sans-serif;
+}
+
+/*----------Header and Headings--------*/
+
+h1{
+	text-align: center;
+}
+
+h2{
+	font: 1.875em Helevetica, Arial, sans-serif; /* 30px */
+}
+
+h3{
+	font: 1.5625em Helevetica, Arial, sans-serif; /* 25px */
+}
+
+h4{
+	font: 1.25em Arial, sans-serif; /* 20px */
+	font-weight: bold;
+}
+
+/*------------Navigation------------*/
+
+nav{
+	width: 100%; /* 760px */
+	margin-top: 20px;
+	margin-bottom: 30px;
+	/*background-color: green;*/
+}
+
+nav ul{
+	margin: 0;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+nav li{
+	width: 13.157894737%; /* 100px */
+	/*background-color: yellow;*/
+	float: left;
+}
+
+nav a{
+	text-decoration: none;
+	/*background-color: red;*/
+}
+
+/*-----Search box---------*/
+
+#search{
+	float: right;
+	margin-bottom: 20px;
+}
+
+/*-----Main Image (Index.html)---------*/
+
+#main_img{
+	float: left;
+	width: 94.736842105%; /* 700px */
+	margin-bottom: 10px;
+	border: 4px solid #000; 
+}
+
+/*-------Main Content (index.html)-------*/
+
+#left_side{
+	width: 52.631578947%; /* 400px */
+	float: left;
+}
+
+#right_side{
+	width: 39.473684211%; /* 300px */
+	float: right;
+}
+
+.last_para{
+	clear: both;
+}
+
+#wallet_names{
+	list-style-type: square;
+}
+
+/*-------Beach image (index.html)--------*/
+
+#beach{
+	clear: both;
+	border: 3px solid #000;
+}
+
+/*-------Sign up form-------*/
+
+#email{
+	width: 13.157894737%; /* 100px */
+	padding-left: 0.02%; /* 2px */
+}
+
+#e-mail{
+	width: 26.315789474%; /* 200px */
+	padding-right: 0.025%; /* 5px */
+	margin-bottom: 10px;
+}
+
+/*----------Footer--------*/
+
+footer{
+	text-align: center;
+	clear: both;
+}
+
+/*----------------About.html----------------*/
+
+#about{
+	margin-top: 20px;
+}
+
+#schaeppi{
+	border: 2px solid #000;
+}
+
+#left_column{
+	width: 52.631578947%; /* 400px */
+	float: left;
+}
+
+#right_column{
+	width: 42.763157895%; /* 325px */
+	padding-top: 20px;
+	float: right;
+}
+
+#right_col, #right_colu{
+	width: 42.763157895%; /* 325px */
+	float: right;
+}
+
+.note{
+	clear: both;
+}
+
+#reasons{
+	clear: both;
+}
+
+#crypt{
+	width: 94.736842105%; /* 700px */
+	border: 2px solid #000;
+}
+
+/*-----------------Shop.html------------*/
+
+#debossed_image{
+	margin-left: 0.657894737%; /* 5px */
+}
+
+.special{
+	clear: both;
+}
+
+#left{
+	margin-top: -10px;
+}
+
+.rght{
+	/*background-color: yellow;*/
+	margin-top: -20px;
+}
+
+#reward{
+	width: 65.789473684%; /* 500px */
+}
+
+
+/*-----------------Contact.html---------*/
+
+#name_full{
+	width: 26.315789474%; /* 200px */
+	margin-bottom: 10px;
+	padding-left: 40%; /* 5px */
+}
+
+#email_cont{
+	width: 26.315789474%; /* 200px */
+	margin-bottom: 5px;
+	padding-left: 40%; /* 5px */
+}
+
+/*--------------------Info.html------------*/
+
+#debossed_image{
+	float: left;
+}
+
+.debossed_para{
+	width: 31.578947368%; /* 240px */
+	float: right;
+}
+
+#roo_section{
+	clear: both;
+	width: 52.631578947%; /* 400px */
+	/*background-color: yellow;*/
+}
+
+#ole_section{
+	width: 39.473684211%; /* 300px */
+	margin-top: -300px;
+	margin-right: 0.333333333%; /* 10px */
+	/*background-color: yellow;*/
+	float: right;
+}
+
+#id_section{
+	clear: both;
+	width: 46.052631579%; /* 350px */
+	/*background-color: yellow;*/
+	margin-bottom: 30px;
+}
+
+#gentle_section{
+	width: 46.052631579%; /* 350px */
+	margin-top: -340px;
+	margin-bottom: 30px;
+	/*background-color: yellow;*/
+	float: right;
+}
+
+#gentleman_image{
+	margin-left:  17.105263158%; /* 130px */
+}
+
+
+/*----------------Get Stoked.html----------*/
+
+#left{
+	width: 52.631578947%; /* 400px */
+	float: left;
+}
+
+#right{
+	width: 42.763157895%; /* 325px */
+	float: right;
+}
+
+#form{
+	clear: both;
+}
+
+/*-------Media Queries----------*/
+
+/*---------Desktop Portrait-----*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px){
+	#wrapper{
+		padding-left: 1.315789474%; /* 10px */
+		padding-right: 1.315789474%; /* 10px */
+		/*background-color: #e3e2e2; /* light grey to indicate Desktop view */
+	}
+	
+	.debossed_para{
+		width: 65.104166667%; /* 500px */
+		float: none;
+	}
+
+	#ole_section{
+		width: 39.473684211%; /* 300px */
+		margin-top: -300px;
+		margin-right: 17px; /* 10px */
+		/*background-color: yellow;*/
+		float: right;
+	}
+	
+	#gentleman_image{
+		margin-left:  2.213541667%; /* 17px */
+	}
+}
+
+/*-----------Tablet Portrait--------*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+	#wrapper{
+		padding-left: 1.315789474%; /* 10px */
+		/*background-color: silver; /* dark grey to indicate Tablet view */
+	}
+	
+	nav li{
+		float: none;
+	}
+	
+	#search{
+		float: none;
+	}
+	
+	#left_side{
+		float: none;
+	}
+
+	#right_side{
+		float: none;
+	}
+	
+	#left_column{
+	float: none;
+}
+
+	#right_column{
+		float: none;
+	}
+
+	#right_col, #right_colu{
+		float: none;
+	}
+	
+	#debossed_image{
+		margin-left: 5px; /* 5px */
+	}
+	#roo_section{
+		clear: none;
+		width: 78.226857888%; /* 300px */
+	}
+
+	#ole_section{
+		width: 78.226857888%; /* 300px */
+		margin-top: 30px;
+		float: none;
+	}
+
+	#id_section{
+		clear: none;
+		width: 78.226857888%; /* 300px */
+		margin-top: 30px;
+	}
+
+	#gentle_section{
+		width: 78.226857888%; /* 300px */
+		margin-top: 30px;
+		float: none;
+	}
+	
+	#gentleman_image{
+		margin-left: 0.417536534%; /* 2px */
+	}
+	
+	.debossed_para{
+		width: 83.33333333%; /* 400px */
+		float: none;
+	}
+	
+	#left{
+		width: 78.226857888%; /* 600px */
+		float: none;
+	}
+
+	#right{
+		width: 78.226857888%; /* 600px */
+		float: none;
+	}
+	
+	#name_full{
+		width: 13.037809648%; /* 100px */
+	}
+
+	#email_cont{
+		width: 13.037809648%; /* 100px */
+	}
+	
+	#comments{
+		width: 65.18904824%; /* 500px */
+	}
+}
+
+/*--------Mobile Portrait--------------*/
+
+@media only screen and (max-width: 479px){
+	#wrapper{
+		/*background-color: #9db5d4; /* light blue to indicate Mobile view */
+	}
+	
+	nav li{
+		float: none;
+	}
+	
+	#search{
+		float: none;
+	}
+	
+	#left{
+		width: 78.226857888%; /* 600px */
+		float: none;
+	}
+
+	#right{
+		width: 78.226857888%; /* 600px */
+		float: none;
+	}
+	
+	#comments{
+		width: 62.630480167%; /* 300px */
+	}
+	
+	
+	#left_column{
+		width: 78.226857888%; /* 600px */
+		float: none;
+	}
+
+	#right_column{
+		width: 78.226857888%; /* 600px */
+		padding-top: 20px;
+		float: none;
+	}
+
+	#right_col, #right_colu{
+		width: 78.226857888%; /* 600px */
+		float: none;
+	}
+	
+	#left_side{
+		float: none;
+	}
+
+	#right_side{
+		float: none;
+	}
+	
+	#debossed_image{
+	float: left;
+}
+
+	.debossed_para{
+		width: 78.226857888%; /* 300px */
+		float: none;
+	}
+
+	#roo_section{
+		clear: none;
+		width: 78.226857888%; /* 300px */
+	}
+
+	#ole_section{
+		width: 78.226857888%; /* 300px */
+		margin-top: 30px;
+		float: none;
+	}
+
+	#id_section{
+		clear: none;
+		width: 78.226857888%; /* 300px */
+		margin-top: 30px;
+	}
+
+	#gentle_section{
+		width: 78.226857888%; /* 300px */
+		margin-top: 30px;
+		float: none;
+	}
+	
+	#gentleman_image{
+		margin-left: 0.417536534%; /* 2px */
+	}
+}
+
+/*-------End-------------*/
