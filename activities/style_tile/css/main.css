@@ -1,0 +1,38 @@
+/*--Bryant, Samantha - Week 2 Style Tiles--*/
+
+/*----Document-----*/
+
+body{
+	margin: 0 auto;
+	max-width: 86%; /*860px*/
+}
+
+/*----------Headers-----------*/
+
+h1{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+	font: 156.25% Gill Sans Ultra Bold, sans-serif; /* 25px */
+}
+
+/*---------Unordered list----------*/
+
+ul{
+	list-style-type: none;
+	font: 75%/1.5em Verdana, Arial, sans-serif;
+}
+
+/*-----------Images-------------*/
+
+tile{
+	width: 100%;
+}
+
+/*--------------Footer------------*/
+
+footer{
+	text-align: center;
+}
