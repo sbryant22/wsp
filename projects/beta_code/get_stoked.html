@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<title>Epic Stoke | Live Wild</title>
+	<title>Epic Stoke | Live Wild - Get Stoked</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/main.css"/>
@@ -17,20 +17,24 @@
 						<li><a href="index.html">Home</a></li>
 						<li><a href="about.html">About</a></li>
 						<li><a href="shop.html">Shop</a></li>
-						<li><a href="info.html">Product Info</a></li>
-						<li><a href="#">Get Stoked</a></li>
+						<li><a href="info.html">Products</a></li>
+						<li><a href="#"><span class="nav_current">News</span></a></li>
 						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</nav>
 		</header>
-		<section>
-		<!--Search field-->
+			<section>
+			<!--Cart info-->
+			<p class="cart_items">(0) items in cart</p>
+			<p class="cart_links"><a href="shop.html">empty cart | checkout</a></p>
+			<!--Search field-->
 		<div id="search">
-			<input type="text" />
-      		<input type="submit" value="Search" />
+			<input type="text" placeholder="Search" />
+      		<!--<input type="submit" value="Search" />-->
       	</div>
-      	<div>
-			<h2>WeeklyStoke Newsletter</h2>
+      	</section>
+      	<section>
+			<h2 id="title">WeeklyStoke Newsletter</h2>
 		<div id="left">
 			<p>So here’s to our first WeeklyStoke post ever. Yeah, we’re new at this kind of thing, so bear with us here..</p>
 			<p>First and foremost we want to SINCERELY thank all of you who have helped support our <strong>Kickstarter campaign</strong>. Seriously. Thank you, thank you, thank you. We think you’re the greatest human beings in the world. There’s just 24 hours left on it and we’re only 1k short of meeting our stretch goal, so if you feel like sharing it with your friends or e-mailing them the link, that would be extra super awesome. Again, we can’t thank you enough. For serious.</p>
@@ -41,30 +45,41 @@
 			<p>Our mission with Epicstoke, as the name implies, is to share and spread the stoke on a larger scale.  Not only through our gear, but through social innovation as well. If everyone in the world was passionate and fired up about something, we think it’d be a bit nicer place. We’re guessing you feel the same.</p>
 			<p>Again, thank you all so much, we’re looking forward to going on this adventure with you all, and never stop spreading your stoke!</p>
 		</div><!--Closes right id-->
-		</div><!--Closes main content-->
-			
-			<!--Email sign up-->
+		</section>	
+		<!--Newsletter-->
+		<section>
+			<div>
+			<h3 id="weeklystoke">Sign Up for the WEEKLYSTOKE!</h3>
+			</div>
+		</section>
+		<section>
+		<!--Email sign up-->
 			<form method="get" action="mailto.example@example.com">
 				<div id="form">
 				
 				<!--Email-->
 				<div>
-					<label for="e-mail" id="email">Email:</label>
-					<input type="text" name="email" id="e-mail" placeholder="myemail@gmail.com"/>
+					<!--<label for="e-mail" id="email">Email:</label>-->
+					<input type="text" name="email" id="e-mail" placeholder="Email address"/>
 				</div>
 			</div>
 			
 				<!--Sign up button-->
 				<div>
-				<input type="submit" name="Sign Up" value="SIGN ME UP!">
+				<a id="cta_button" href="get_stoked.html" class="cta_button">Sign Up!</a>
+				<!--<input type="submit" name="Sign Up" value="SIGN UP!">-->
 				</div>
 			</form>
-			<!--End of form-->
+			</section>
 				
 			 <footer>
-				<p>&copy; EPICSTOKE, LLC 2013 - All Rights Reserved. | Home | About | Shop | Contact | Get Stoked! | Product Information</p>
+				<p class="copyright">&copy; EPICSTOKE, LLC 2013</p>
+				<p class="bottom_nav">Home | About |  Shop | Product Info | <span id="get">Get Stoked!</span> | Contact</p>
+				<p><img id="fb_icon" src="images/fb_icon.jpg" alt="facebook icon" width="39" height="38" title="Facebook Icon"/></p>
+				<p><img id="twitter_icon" src="images/twitter_icon.jpg" alt="twitter icon" width="39" height="38" title="Twitter Icon"/></p>
+				<p><img id="linkedin_icon" src="images/linkedin_icon.jpg" alt="Linkedin icon" width="39" height="38" title="Linkedin Icon"/></p>
+				<p><img id="insta_icon" src="images/insta_icon.jpg" alt="Instagram icon" width="39" height="38" title="Instagram Icon"/></p>
 			 </footer>
-		  </section>
 		</div>
 	</body>
 </html>

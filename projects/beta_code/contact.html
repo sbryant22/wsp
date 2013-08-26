@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<title>Epic Stoke | Live Wild</title>
+	<title>Epic Stoke | Live Wild - Contact</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/main.css"/>
@@ -17,25 +17,30 @@
 						<li><a href="index.html">Home</a></li>
 						<li><a href="about.html">About</a></li>
 						<li><a href="shop.html">Shop</a></li>
-						<li><a href="info.html">Product Info</a></li>
-						<li><a href="get_stoked.html">Get Stoked</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="info.html">Products</a></li>
+						<li><a href="get_stoked.html">News</a></li>
+						<li><a href="#"><span class="nav_current">Contact</span></a></li>
 					</ul>
 				</nav>
 		</header>
-		<section>
-		<!--Search field-->
+			<section>
+			<!--Cart info-->
+			<p class="cart_items">(0) items in cart</p>
+			<p class="cart_links"><a href="shop.html">empty cart | checkout</a></p>
+			<!--Search field-->
 		<div id="search">
-			<input type="text" />
-      		<input type="submit" value="Search" />
+			<input type="text" placeholder="Search" />
+      		<!--<input type="submit" value="Search" />-->
       	</div>
+      	</section>
+      	<section>
 			<div>
-			<h2>Contact Us!</h2>
-			<p>Have a question, comment, suggestion, or you just want to say Hi? Just let us know by filling out the form below and we'll get back to you ASAP!</p>
+			<h2 id="contact_title">Do you have a question or comment?</h2>
+			<!--<p>Have a question, comment, suggestion, or you just want to say Hi? Just let us know by filling out the form below and we'll get back to you ASAP!</p>-->
 			</div>
 			
 			<!--Form-->
-			<h3 id="sign_up">Any Questions?</h3>
+			<!--<h3 id="sign_up">Any Questions?</h3>-->
 			
 			<!--form to include: name, email, message box, and submit button-->
 			<form method="get" action="mailto.example@example.com">
@@ -47,23 +52,48 @@
 				
 			<!--Email-->
 				<div>
-					<label for="e-mail" id="email">Email:</label>
+					<label for="email" id="email">Email:</label>
 					<input type="text" name="email" id="email_cont"/>
 				</div>
 				
 			<!--Message-->
 				<div>
-					<p><textarea name="comments" id="comments" rows="10" cols="80">Message</textarea></p>
+					<p class="message">Message:</p>
+					<p><textarea name="comments" id="comments" rows="10" cols="80"></textarea></p>
+				</div>
+				
+			<!--Checkbox-->
+				<div>
+					<input type="checkbox" name="check_newslett" id="checkbox"/>
+					<p class="chbx_question">Would you like to sign up for our newsletter?</p>
 				</div>
 			
 				<div>
-					<input type="submit" name="Sign Up" value="SUBMIT">
+					<a id="cta_but" href="get_stoked.html" class="cta_but">Submit</a>
+					<!--<input type="submit" name="Sign Up" value="SUBMIT">-->
 				</div>
 				</form>
 				<!--End Form-->
+				<div id="hours">
+					<p class="talk">Need to talk?</p>
+					<p>Tele: <span class="phone_num">(615) 555 555</span></p>
+					<!--<p class="twitter_contact">Schaeppi_Bros</p>-->
+					<p><img id="mini_twit_icon" src="images/mini_twit_icon.jpg" alt="Mini Twitter icon" width="34" height="38" title="Mini Twitter Icon"/></p>
+					<!--<p class="skype_contact">Schaeppi_Bros22</p>-->
+					<p><img id="skype_icon" src="images/skype_icon.jpg" alt="Skype icon" width="32" height="36" title="Skype Icon"/></p>
+					<p class="hours_op">Hours of Operation <br />(Central Time Zone)</p>
+					<p>Mon-Thurs: 9a - 9p</p>
+					<p>Fri-Sat: 10a - 6p</p>
+					<p>Sun: closed</p>
+				</div>
 			
 			<footer id="bottom" class="site_footer">
-				<p>&copy; EPICSTOKE, LLC 2013 - All Rights Reserved. | Home | About | Shop | Contact | Get Stoked! | Product Information</p>
+				<p class="copyright">&copy; EPICSTOKE, LLC 2013</p>
+				<p class="bottom_nav"> Home | About |  Shop | Product Info | Get Stoked! | <span id="contact">Contact</span></p>
+				<p><img id="fb_icon" src="images/fb_icon.jpg" alt="facebook icon" width="39" height="38" title="Facebook Icon"/></p>
+				<p><img id="twitter_icon" src="images/twitter_icon.jpg" alt="twitter icon" width="39" height="38" title="Twitter Icon"/></p>
+				<p><img id="linkedin_icon" src="images/linkedin_icon.jpg" alt="Linkedin icon" width="39" height="38" title="Linkedin Icon"/></p>
+				<p><img id="insta_icon" src="images/insta_icon.jpg" alt="Instagram icon" width="39" height="38" title="Instagram Icon"/></p>
 			 </footer>
 		  </section>
 		</div>
