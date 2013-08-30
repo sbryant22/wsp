@@ -1,0 +1,1062 @@
+/*--Bryant, Samantha - Week 3 Beta Code
+
+EpicStoke
+www.epicstoke.com
+
+========Color Scheme==========
+
+dark green = #057300
+
+light green = #08b300
+
+light gray = #bebebe
+
+dark gray = #323232
+
+yellowish brown = #c98e0e
+
+===========Fonts================
+
+"Lucida sans", sans-serif;
+
+"League Gothic";
+
+"Franchise";
+
+==============@font-face====--*/
+
+@font-face{
+	font-family: 'League Gothic';
+	src: url(../fonts/LeagueGothic-Regular.otf);
+}
+
+/*--------Document--------*/
+
+body{
+	margin: 0 auto;
+	font: 75%/1.5em 'Lucida Sans', sans-serif;
+	max-width: 1027px; /* 1027px */
+}
+
+#wrapper{
+	width: 98%; /* 980px */
+	/*height: 1123px;*/
+	margin-top: 100px;
+	background-image: url(../images/main_bkgd.jpg);
+	background-repeat: no-repeat;
+}
+
+/*----------Header and Headings--------*/
+
+header{
+	width: 100%; /* 980px */
+	height: 150px;
+	margin-top: -70px;
+	padding-top: 70px;
+	background-image: url(../images/header.jpg);
+	background-repeat: no-repeat;
+}
+
+#logo{
+	width: 37.142857143%; /* 364px */
+	height: 110px;
+	margin-top: -40px;
+	background-image: url(../images/logo.jpg);
+	background-repeat: no-repeat;
+}
+
+h1{
+	text-indent: -999999px;
+}
+
+h2{
+	font: 2.1875em 'League Gothic', sans-serif; /* 35px */
+}
+
+h3{
+	font: 2.5em Franchise, sans-serif; /* 40px */
+	color: #323232;
+}
+
+
+/*------------Navigation------------*/
+
+nav{
+	width: 100%; /* 980px */
+	height: 46px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	background-image: url(../images/nav_bar.jpg);
+	background-repeat: no-repeat;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 10px 0 0;
+	clear: both;
+}
+
+nav li{
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+nav a{
+	display: block;
+	text-decoration: none;
+	font: 1.875em Franchise, 'Arial Black'; /* 30px */
+	color: #bebebe;
+	margin: 0;
+	margin-left: 40.816327%; /* 40px */
+	padding: 5px;
+	text-align: center;
+}
+
+nav a:hover{
+	color: #08b300;
+}
+
+.nav_current{
+	color: #057300;
+}
+
+/*------Shopping Cart links------*/
+
+.cart_items{
+	float: right;
+	width: 11.224489796%; /* 110px */
+	margin-top: -200px;
+	margin-right: 3.6363636364%; /* 40px */
+	color: #323232;
+	/*background-color: yellow;*/
+}
+
+.cart_links{
+	float: right;
+	width: 14.285714286%; /* 140px */
+	margin-top: -180px;
+	margin-right: 2.1428571429%; /* 30px */
+	/*background-color: yellow;*/
+}
+
+.cart_links a{
+	width: 14.285714286%; /* 140px */
+	color: #057300;
+	text-decoration: none
+}
+/*-----Search box---------*/
+
+#search{
+	float: right;
+	width: 13.265306122%; /* 130px */
+	margin-top: -100px;
+	margin-right: 1.92307692315%; /* 20px */ 
+	padding-right: 2%; /* 40px */
+	border: 2px solid #323232; /* 2px */
+	background-color: #bebebe;
+}
+
+/*-------Sign up form-------*/
+
+#weeklystoke{
+	width: 40.816326531%; /* 400px */
+	margin-bottom: -500px;
+	padding: 0.714285714%; /* 5px */
+	padding-left: 2%; /* 20px */
+	font-size: 1.875em; /* 30px */
+	color: #bebebe;
+	background-color: #323232;
+	clear: both;
+}
+
+#e-mail{
+	width: 26.315789474%; /* 200px */
+	padding: 0.3%; /* 60px */
+	padding-right: 0.025%; /* 5px */
+	margin-top: 550px;
+	margin-left: 3.0%; /* 60px */
+	border: 2px solid #323232;
+	background-color: #bebebe;
+} /* home page */
+
+#email_other{
+	width: 26.315789474%; /* 200px */
+	padding: 0.3%; /* 60px */
+	padding-right: 0.025%; /* 5px */
+	margin-top: 550px;
+	margin-left: -54%; /* -540px */
+	border: 2px solid #323232;
+	background-color: #bebebe;
+}
+
+#email_info_pg{
+	width: 26.315789474%; /* 200px */
+	padding: 0.3%; /* 60px */
+	padding-right: 0.025%; /* 5px */
+	margin-top: 550px;
+	margin-left: -60%; /* -620px */
+	border: 2px solid #323232;
+	background-color: #bebebe;
+}
+
+#cta_button{
+	display: block;
+	width: 12.244897959%; /* 120px */
+	height: 25px;	
+	float: left;
+	padding-top: 10px;
+	border-radius: 20px;
+	text-align: center;
+	text-decoration: none;
+	font:  normal 1.875em Franchise, bold, sans serif; /* 22px */
+	color: #323232;
+	background: -moz-linear-gradient(top, rgba(201,142,14,1) 0%, rgba(201,142,14,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(201,142,14,1)), color-stop(100%,rgba(201,142,14,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(201,142,14,1) 0%,rgba(201,142,14,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: linear-gradient(to bottom, rgba(201,142,14,1) 0%,rgba(201,142,14,1) 100%); /* W3C */
+	box-shadow: 0 0 3px #323232;
+}
+
+.cta_button{
+	margin-left: 31.6326531%; /* 310px */
+	margin-top: -30px;
+}
+
+
+/*----------Footer--------*/
+
+footer{
+	width: 100%; /* 980px */
+	height: 50px;
+	margin-top: 230px;
+	background-image: url(../images/footer.jpg);
+	background-repeat: no-repeat;
+	clear: both;
+}
+
+.copyright{
+	color: #bebebe;
+	width: 14.285714286%; /* 140px */
+	font: 0.9375em 'Lucida sans'; /* 15px */
+	margin-top: -200px;
+	margin-left: 3.571428571%; /* 5px */
+	padding: 1.7857142857%; /* 20px */
+}
+
+.bottom_nav{
+	color: #bebebe;
+	width: 35.714285714%; /* 350px */
+	font: 0.9375em 'Lucida sans'; /* 15px */
+	margin-top: -60px;
+	margin-left: 30%; /* 105px */
+	padding: 1.42857143%; /* 15px */
+}
+
+#home{
+	color: #c98e0e;
+}
+
+.about{
+	color: #c98e0e;
+}
+
+#shop{
+	color: #c98e0e;
+}
+
+#info{
+	color: #c98e0e;
+}
+
+#get{
+	color: #c98e0e;
+}
+
+#contact{
+	color: #c98e0e;
+}
+
+#fb_icon{
+	float: right;
+	margin-top: -53px;
+	margin-right: 20.408163265%; /* 200px */
+}
+
+#twitter_icon{
+	float: right;
+	margin-top: -53px;
+	margin-right: 15.306122449%; /* 150px */ 
+}
+
+#linkedin_icon{
+	float: right;
+	margin-top: -53px;
+	margin-right: 10.204081633%; /* 100px */
+}
+
+#insta_icon{
+	float: right;
+	margin-top: -53px;
+	margin-right: 5.102040816%; /* 50px */
+}
+
+/*-----Main Image (Index.html)---------*/
+
+#es_banner{
+	float: left;
+	width: 57.142857143%; /* 560px */
+	margin-top: 220px;
+	margin-right: 1.785714286%; /* 10px */
+	padding: 1%; /* 10px */
+	color: #323232;
+	background-color: #bebebe;
+	opacity: 0.8;
+}
+
+.live_wild{
+	font-size: 0.75em; /* 12px */
+}
+
+#sports_img{
+	float: left;
+	width: 92.857142857%; /* 910px */
+	height: 268px;
+	margin-left: 3.296703297%; /* 30px */
+	background-image: url(../images/main_image.jpg);
+	background-repeat: no-repeat;
+	border: 5px solid #323232;
+}
+
+/*-------Main Content (index.html)-------*/
+
+#welcome{
+	float: right;
+	font: 15.625em bold 'League Gothic', sans serif; /* 25px */
+	width: 27.040816327%; /* 265px */
+	margin-top: 30px;
+	margin-right: 2.641509434%; /* 7px */
+	padding: 1.42857142857%; /* 10px */
+	padding-right: 8.57142857143%; /* 60px */
+	color: #bebebe;
+	background-color: #323232;
+}
+
+.welcome_para{
+	float: right;
+	width: 34.693877551%; /* 340px */
+	margin: 2.941176471%; /* 30px */
+	margin-top: -5px;
+	margin-left: 23.5294117647%; /* 700px */
+	padding: 0.588235294%; /* 10px */
+	color: #323232;
+	background-color: #bebebe;
+}
+
+.wallets{
+	float: left;
+	width: 10.204081633%; /* 100px */
+	margin-top: -60px;
+	margin-left: 0.1%; /* 1px */
+	padding: 1%; 
+	padding-left: 1%;
+	padding-right: 90%; /* 900px */
+	color: #bebebe;
+	background-color: #323232;
+}
+
+#wallet_img{
+	float: left;
+	width: 42.857142857%; /* 420px */
+	height: 68px;
+	margin-top: -430px;
+	margin-left: 3.3333333333%; /* 140px */
+	background-image: url(../images/wallets_home.jpg);
+	background-repeat: no-repeat;
+}
+
+.sunglasses{
+	float: left;
+	width: 10.204081633%; /* 100px */
+	margin-top: -70px;
+	margin-left: 0.1%; /* 1px */
+	margin-right: 90px; /* 90px */
+	padding: 1%;
+	padding-left: 1%;
+	padding-right: 90%; /* 900px */
+	color: #bebebe;
+	background-color: #323232;
+}
+
+#sunglass_img{
+	float: left;
+	width: 42.857142857%; /* 420px */
+	height: 68px;
+	margin-top: -250px;
+	margin-left: 3%; /* 30px */
+	background-image: url(../images/sunglass_home.jpg);
+	background-repeat: no-repeat;
+}
+
+#beach_img{
+	float: left;
+	width: 26.530612245%; /* 260px */
+	height: 150px;
+	margin-top: -150px;
+	margin-bottom: -100px;
+	margin-left: 3.0769230769%; /* 80px */
+	background-image: url(../images/beach.jpg);
+	background-repeat: no-repeat;
+	border: 5px solid #323232;
+}
+
+.weeklystoke{
+	clear: both;
+	width: 76.530612245%; /* 700px */
+	font-size: 1.875em; /* 30px */
+	margin-top: 120px;
+	padding: 0.714285714%; /* 5px */
+	color: #323232;
+	background-color: #bebebe;
+	opacity: 0.7;
+}
+
+/*----------------About.html----------------*/
+
+#about{
+	width: 71.428571429%; /* 700px */
+	margin-top: 20px;
+	margin-left: 2.857142857%; /* 20px */
+	padding: 0.5%; /* 10px */
+	color: #bebebe;
+	background-color: #323232;
+}
+
+.first_sent{
+	width: 40.816326531%; /* 400px */
+	margin-right: 20%; /* 250px */
+	background-color: #bebebe;
+	color: #323232;
+	float: right;
+}
+
+#schaeppi{
+	width: 30.612244898%; /* 300px */
+	margin-left: 3%; /* 20px */
+	border: 3px solid #323232;
+}
+
+#brief_story{
+	width: 95.918367347%; /* 940px */
+	margin-top: 20px;
+	margin-left: 2.127659574%; /* 20px */
+	padding: 0.5%; /* 10px */
+	color: #bebebe;
+	background-color: #323232;
+}
+
+.kickstarters{
+	width: 52.631578947%; /* 400px */
+	margin-left: 2.25%; /* 90px */
+	padding: 0.5555555556%; /* 5px */
+	background-color: #bebebe;
+	color: #323232;
+}
+
+.kickstarters_list{
+	width: 51.020408163%; /* 500px */
+	margin-left: 2%; /* 100px */
+	padding: 1.7%; /* 170px */
+	list-style-type: square;
+	color: #323232;
+	background-color: #bebebe;
+}
+
+#left_column{
+	width: 52.631578947%; /* 400px */
+	margin-left: 1.7%; /* 70px */
+	margin-bottom: 20px;
+	padding: 0.7142857143%; /* 5px */
+	color: #323232;
+	background-color: #bebebe;
+	float: left;
+}
+
+#right_column{
+	width: 39.795918367%; /* 390px */
+	margin-top: -200px;
+	margin-right: 0.5128205128%; /* 20px */
+	color: #323232;
+	background-color: #bebebe;
+	padding: 0.25%; /* 5px */
+	float: right;
+}
+
+/*-----------------Shop.html------------*/
+
+#shop_title{
+	width: 51.020408163%; /* 500px */
+	margin-left: 2%; /* 10px */
+	padding: 0.5%; /* 5px */
+	color: #bebebe;
+	background-color: #323232;
+}
+
+#prod_wall_title{
+	width: 51.020408163%; /* 500px */
+	margin-left: 2%; /* 20px */
+	padding: 0.5%; /* 5px */
+	color: #bebebe;
+	background-color: #323232;
+}
+
+#sunglasses_title{
+	width: 51.020408163%; /* 500px */
+	margin-left: 2%; /* 20px */
+	margin-top: -10px;
+	padding: 0.5%; /* 5px */
+	color: #bebebe;
+	background-color: #323232;
+}
+
+#roo{
+	float: left;
+	width: 30.612244898%; /* 300px */
+	margin-left: 1.6666666667%; /* 50px */
+	border: 3px solid #323232;
+}
+
+#ole{
+	float: left;
+	width: 30.612244898%; /* 300px */
+	margin-left: 0.6666666667%; /* 20px */
+	border: 3px solid #323232;
+}
+
+#id{
+	float: right;
+	width: 30.612244898%; /* 300px */
+	margin-right: 1%; /* 30px */
+	border: 3px solid #323232;
+}
+
+#gentlemen{
+	clear: both;
+	width: 30.612244898%; /* 300px */
+	margin-top: 50px;
+	margin-left: 1.6666666667%; /* 50px */
+	border: 3px solid #323232;
+}
+
+#ruby{
+	float: left;
+	width: 23.3979591837%; /* 235px */
+	margin-top: -20px;
+	margin-left: 2.1276595745%; /* 50px */
+	margin-bottom: -20px;
+	border: 2px solid #323232;
+}
+
+#fire{
+	float: left;
+	width: 23.3979591837%; /* 235px */
+	margin-top: -20px;
+	margin-left:  0.85106383%; /* 5px */
+	margin-bottom: 20px;
+	border: 2px solid #323232;
+}
+
+#blue{
+	float: left;
+	width: 23.3979591837%; /* 235px */
+	margin-top: -20px;
+	margin-left: 0.85106383%; /* 5px */
+	margin-bottom: 20px;
+	border: 2px solid #323232;
+}
+
+#brown{
+	float: right;
+	width: 23.3979591837%; /* 235px */
+	margin-top: -180px;
+	margin-left: 4.255319149%; /* 10px */
+	margin-bottom: 20px;
+	border: 2px solid #323232;
+}
+
+#cta_but_ac{
+	display: block;
+	width: 12.244897959%; /* 120px */
+	height: 25px;	
+	float: left;
+	padding-top: 10px;
+	border-radius: 20px;
+	text-align: center;
+	text-decoration: none;
+	font:  normal 1.875em Franchise, bold, sans serif; /* 22px */
+	color: #323232;
+	background: -moz-linear-gradient(top, rgba(8,179,0,1) 0%, rgba(5,115,0,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(8,179,0,1)), color-stop(100%,rgba(5,115,0,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(8,179,0,1) 0%,rgba(5,115,0,1) 100%); /* Chrome10+,Safari5.1+ */
+	box-shadow: 0 0 3px #323232;
+}
+
+.cta_but_ac{
+	width: 10.204081633%; /* 100px */
+	margin-left: 85%; /* 850px */
+	margin-top: -300px;
+	margin-bottom: 20px;
+}
+
+/*-----------------Contact.html---------*/
+
+#contact_title{
+	width: 67.346938776%; /* 660px */
+	margin-left: 2.272727273%; /* 15px */
+	padding: 0.3333333333%; /* 5px */
+	color: #bebebe;
+	background-color: #323232;
+}
+
+#name{
+	width: 10.204081633%; /* 100px */
+	margin-bottom: -50px;
+	margin-left: 2.5%; /* 25px */
+	font: 1.875em Franchise, sans serif;
+	color: #323232;
+}
+
+#name_full{
+	width: 21.428571429%; /* 210px */
+	margin-left: 1.020408163%; /* 10px */
+	margin-bottom: 10px;
+	padding: 1%; /* 10px */
+	padding-left: 40%; /* 5px */
+	border: 2px solid #bebebe;
+	background-color: #323232;
+}
+
+#email{
+	width: 10.204081633%; /* 100px */
+	margin-top: -10px;
+	margin-bottom: -50px;
+	margin-left: 2%; /* 20px */
+	font: 1.875em Franchise, sans serif;
+	color: #323232;
+	/*background-color: yellow;*/
+}
+
+#email_cont{
+	width: 21.428571429%; /* 210px */
+	margin-bottom: 5px;
+	margin-left: 1.5%; /* 15px */
+	padding: 1%; /* 10px */
+	padding-left: 40%; /* 5px */
+	border: 2px solid #bebebe;
+	background-color: #323232;
+}
+
+.message{
+	width: 10.204081633%; /* 100px */
+	margin-top: 10px;
+	margin-left: 2%; /* 20px */
+	font: 1.875em Franchise, sans serif;
+	color: #323232;
+}
+
+#comments{
+	width: 22.448979592%; /* 220px */
+	margin-left: 8%; /* 40px */
+	margin-top: -10px;
+	margin-bottom: 5px;
+	padding: 0.5%; /* 10px */
+	padding-left: 40%; /* 5px */
+	border: 2px solid #bebebe;
+	background-color: #323232;
+}
+
+#checkbox{
+	width: 5.102040816%; /* 50px */
+	margin-left: 6%;
+}
+
+.chbx_question{
+	width: 30.612244898%; /* 300px */
+	margin-top: -15px;
+	margin-left: 10%; /* 20px */
+}
+
+#cta_but{
+	display: block;
+	width: 12.244897959%; /* 120px */
+	height: 25px;	
+	float: left;
+	padding-top: 10px;
+	border-radius: 20px;
+	text-align: center;
+	text-decoration: none;
+	font:  normal 1.875em Franchise, bold, sans serif; /* 22px */
+	color: #323232;
+	background: -moz-linear-gradient(top, rgba(8,179,0,1) 0%, rgba(5,115,0,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(8,179,0,1)), color-stop(100%,rgba(5,115,0,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(8,179,0,1) 0%,rgba(5,115,0,1) 100%); /* Chrome10+,Safari5.1+ */
+	box-shadow: 0 0 3px #323232;
+}
+
+.cta_but{
+	width: 10.204081633%; /* 100px */
+	margin-left: 60%; /* 600px */
+	margin-top: -10px;
+	margin-bottom: 20px;
+}
+
+#hours{
+	float: right;
+	width: 20.408163265%; /* 200px */
+	height: 370px;
+	margin-top: -420px;
+	margin-right: 50px; /* 50px */
+	text-align: center;
+	color: #323232;
+	background-color: #bebebe;
+}
+
+.talk{
+	width: 51.020408163%; /* 500px */
+	margin-left: 28%; /* 140px */
+	font-size: 1.25em; /* 20px */
+	font-weight: bold;
+}
+
+.phone_num{
+	width: 40.816326531%; /* 200px */
+	color: #c98e0e;
+}
+
+.twitter_contact{
+	width: 10.2040816%; /* 100px */
+	margin-left: 25%; /* 25px */
+	margin-top: -10px;
+	padding: 4%; /* 10px */
+	color: #c98e0e;
+}
+
+#mini_twit_icon{
+	margin-top: -20px;
+}
+
+#skype_icon{
+	margin-top: -10px;
+}
+
+.skype_contact{
+	width: 10.2040816%; /* 100px */
+	margin-left: 25%;
+	margin-top: -10px;
+	color: #c98e0e;
+}
+
+.hours_op{
+	width: 61.224489796%; /* 600px */
+	margin-left: 20%;
+	font-weight: bold;
+}
+
+/*--------------------Info.html------------*/
+
+#prod_title{
+	width: 91.836734694%; /* 900px */
+	margin-left: 2.222222222%; /* 20px */
+	padding: 0.25%; /* 5px */
+	padding-left: 0.5%; /* 10px */
+	color: #bebebe;
+	background-color: #323232;
+}
+
+.info{
+	width: 91.836734694%; /* 900px */
+	margin-left: 2.222222222%; /* 20px */
+	padding: 0.25%; /* 5px */
+	color: #323232;
+	background-color: #bebebe;
+}
+
+#palette{
+	width: 91.836734694%; /* 900px */
+	margin-left: 2.222222222%; /* 20px */
+	padding: 0.25%; /* 5px */
+	padding-left: 0.5%; /* 10px */
+	color: #bebebe;
+	background-color: #323232;
+}
+
+.pal_para{
+	float: right;
+	width: 40.816326531%; /* 400px */
+	margin-top: 10px;
+	margin-right: 10%; /* 40px */
+	padding: 0.125%; /* 5px */
+	color: #323232;
+	background-color: #bebebe;
+}
+
+#palette_img{
+	width: 40.816326531%; /* 400px */
+	height: 70px;
+	margin-left: 2%; /* 20px */
+	float: left;
+	border: 2px solid #323232;
+}
+
+.surf_para{
+	clear: both;
+	width: 91.836734694%; /* 900px */
+	margin-top: 100px;
+	margin-left: 2.222222222%; /* 20px */
+	padding: 1%; /* 20px */
+	color: #323232;
+	background-color: #bebebe;
+}
+
+/*----------------Get Stoked.html (news)----------*/
+
+#title{
+	width: 93.87755102%; /* 945px */
+	margin-left: 2.116402116%; /* 20px */
+	padding: 0.25%; /* 5px */
+	padding-left: 0.45%; /* 9px */
+	color: #bebebe;
+	background-color: #323232;
+}
+
+#left{
+	float: left;
+	width: 52.631578947%; /* 400px */
+	margin-left: 2%; /* 20px */
+	padding: 0.50%; /* 10px */
+	color: #323232;
+	background-color: #bebebe;
+}
+
+#right{
+	float: right;
+	width: 36.224489796%; /* 355px */
+	margin-top: -2px;
+	margin-right: 5.633802817%; /* 30px */
+	padding: 0.6666666667%; /* 5px */
+	color: #323232;
+	background-color: #bebebe;
+}
+
+/*---------------------------Media Queries----------------------------------------*/
+
+/*-----------------------------Below 980-----------------------------------------*/
+
+@media only screen and (max-width: 979px){
+	
+}
+
+/*------------------------------Below 760-----------------------------------------*/
+
+@media only screen and (max-width: 759px){
+	
+}
+
+/*------------------------Below 480-------------------------*/
+@media only screen and (max-width: 479px){
+	body{
+		margin-left: 10px;
+	}
+	
+	#wrapper{
+		width: 450px; /* 450px */
+		background-image: none;
+		background-color: #bebebe;
+	}
+	
+	#logo{
+		width: 319px; /* 319px */
+		height: 67px;
+		margin-top: -50px;
+		margin-left: 50px;
+		background-image: url(../images/logo.jpg);
+		background-repeat: no-repeat;
+	}
+	
+	header{
+		width: 335px; /* 335px */
+		height: 154px;
+		background-image: url(../images/header.jpg);
+		background-repeat: no-repeat;
+	}
+	
+	.cart_items{
+		float: none;
+		width: 110px; /* 110px */
+		margin-top: -100px;
+		margin-left: 5px;
+		/*background-color: yellow;*/
+	}
+
+	.cart_links{
+		float: right;
+		width: 140px; /* 140px */
+		margin-top: -30px;
+		margin-left: 5px;
+		/*background-color: yellow;*/
+	}
+	
+	#search{
+		float: none;
+		width: 420px;
+		margin-top: 5px;
+		margin-left: 5px; /* 20px */ 
+		padding-right: 2%; /* 40px */
+		border: 2px solid #323232; /* 2px */
+		background-color: #bebebe;
+	}
+	
+	nav{
+		background-image: none;
+	}
+	
+	nav li{
+		float: none;
+		margin-top: 70px;
+	}
+
+	nav a{
+		display: block;
+		font-size: 1.875em;
+		margin: 0;
+		/*margin-left: 40.816327%; /* 40px */
+		padding: 5px;
+		color: #323232;
+		
+	}
+	
+	#es_banner{
+		float: none;
+		margin-top: 25px;
+		color: #bebebe;
+	}
+	
+	#sports_img{
+		float: none;
+		background-image: none;
+		border: none;
+	}
+	
+	
+	#welcome{
+		float: none;
+		font-size: 1em
+		width: 270px; /* 265px */
+		margin-top: 30px;
+
+	}
+	
+	.welcome_para{
+		float: none;
+		width: 34.693877551%; /* 340px */
+		margin: 2.941176471%; /* 30px */
+		margin-top: -5px;
+		margin-left: 23.5294117647%; /* 700px */
+		padding: 0.588235294%; /* 10px */
+		color: #323232;
+		background-color: #bebebe;
+	}
+
+	.wallets{
+		float: none;
+		width: 10.204081633%; /* 100px */
+		margin-top: -60px;
+		margin-left: 0.1%; /* 1px */
+		padding: 1%; 
+		padding-left: 1%;
+		padding-right: 90%; /* 900px */
+		color: #bebebe;
+		background-color: #323232;
+	}
+
+	#wallet_img{
+		float: none;
+		width: 301px;
+		height: 192px;
+		margin-top: -430px;
+		margin-left: 3.3333333333%; /* 140px */
+		background-image: url(../images/wallets_mobile.jpg);
+		background-repeat: no-repeat;
+	}
+
+	.sunglasses{
+		float: none;
+		width: 10.204081633%; /* 100px */
+		margin-top: -70px;
+		margin-left: 0.1%; /* 1px */
+		margin-right: 90px; /* 90px */
+		padding: 1%;
+		padding-left: 1%;
+		padding-right: 90%; /* 900px */
+		color: #bebebe;
+		background-color: #323232;
+	}
+
+	#sunglass_img{
+		float: none;
+		width: 301px;
+		height: 192px;
+		margin-top: -250px;
+		margin-left: 3%; /* 30px */
+		background-image: url (../images/sunglasses_mobile.jpg);
+		background-repeat: no-repeat;
+	}
+	
+	footer{
+		height: 96px;
+		margin-top: 230px;
+		margin-bottom: 5px;
+		background-image: none;
+		background-color: #323232;
+	}
+	
+	.copyright{
+		width: 150px; /* 140px */
+		margin-top: -200px;
+		margin-bottom: 50px;
+		font-size: 1em
+	}
+
+	.bottom_nav{
+		width: 400px;
+		margin-top: -10px;
+		margin-left: 5px;
+	}	
+	
+	#fb_icon{
+		float: right;
+		margin-top: -75px;
+		margin-left: 5px;
+	}
+
+	#twitter_icon{
+		float: right;
+		margin-top: -75px;
+		/*margin-right: 15.306122449%; /* 150px */ 
+	}
+
+	#linkedin_icon{
+		float: right;
+		margin-top: -53px;
+		margin-right: 10.204081633%; /* 100px */
+	}
+
+	#insta_icon{
+		float: right;
+		margin-top: -53px;
+		margin-right: 5.102040816%; /* 50px */
+	}
+}
+	
+/*-------End-------------*/
