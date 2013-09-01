@@ -1,4 +1,4 @@
-/*--Bryant, Samantha - Week 3 Beta Code
+/*--Bryant, Samantha - Week 4 Final Delivery
 
 EpicStoke
 www.epicstoke.com
@@ -120,6 +120,19 @@ nav a:hover{
 
 .nav_current{
 	color: #057300;
+}
+
+#nav1{
+	float: left;
+	overflow: hidden;
+}
+
+#nav2{
+	float: left;
+	overflow: hidden;
+	width: 42.8571429%; /* 420px */
+	margin-top: -42px;
+	margin-left: 20.2380952%; /* 85px */
 }
 
 /*------Shopping Cart links------*/
@@ -867,6 +880,7 @@ footer{
 @media only screen and (max-width: 479px){
 	body{
 		margin-left: 10px;
+		margin-right: 10px;
 	}
 	
 	#wrapper{
@@ -876,19 +890,17 @@ footer{
 	}
 	
 	#logo{
-		width: 319px; /* 319px */
-		height: 67px;
-		margin-top: -50px;
-		margin-left: 50px;
+		width: 400px;
+		margin: 0;
+		margin-top: -60px;
+		margin-left: 5px;
 		background-image: url(../images/logo.jpg);
 		background-repeat: no-repeat;
 	}
 	
 	header{
 		width: 335px; /* 335px */
-		height: 154px;
-		background-image: url(../images/header.jpg);
-		background-repeat: no-repeat;
+		background-image: none;
 	}
 	
 	.cart_items{
@@ -896,25 +908,19 @@ footer{
 		width: 110px; /* 110px */
 		margin-top: -100px;
 		margin-left: 5px;
-		/*background-color: yellow;*/
 	}
 
 	.cart_links{
 		float: right;
 		width: 140px; /* 140px */
-		margin-top: -30px;
-		margin-left: 5px;
-		/*background-color: yellow;*/
+		margin-top: -215px;
+		margin-left: 100px;
 	}
 	
 	#search{
-		float: none;
-		width: 420px;
-		margin-top: 5px;
-		margin-left: 5px; /* 20px */ 
-		padding-right: 2%; /* 40px */
-		border: 2px solid #323232; /* 2px */
-		background-color: #bebebe;
+		float: right;
+		width: 145px;
+		margin-top: -320px;
 	}
 	
 	nav{
@@ -923,93 +929,91 @@ footer{
 	
 	nav li{
 		float: none;
-		margin-top: 70px;
+		width: 220px;
+		margin-top: 10px;
+		margin-bottom: -5px;
 	}
-
+	
 	nav a{
 		display: block;
 		font-size: 1.875em;
 		margin: 0;
-		/*margin-left: 40.816327%; /* 40px */
-		padding: 5px;
-		color: #323232;
-		
+		padding: 15px;
+		color: #bebebe;
+		background-color: #323232;
+	}
+	
+	.nav_current{
+		width: 450px;
+		padding: 15px;
+		color: #bebebe;
+		background-color: #057300;
+	}
+
+	#nav2{
+		float: right;
+		overflow: hidden;
+		width: 220px; /* 220px */
+		margin-top: -185px;
+		margin-bottom: 10px;
+		margin-right: -115px;
 	}
 	
 	#es_banner{
 		float: none;
-		margin-top: 25px;
-		color: #bebebe;
-	}
+		opacity: 0;
+	}/* to remove */
 	
 	#sports_img{
 		float: none;
 		background-image: none;
 		border: none;
-	}
+		opacity: 0;
+	}/* to remove */
 	
 	
 	#welcome{
 		float: none;
-		font-size: 1em
-		width: 270px; /* 265px */
-		margin-top: 30px;
-
-	}
+		font-size: 0.825em;
+		width: 60px;
+		margin-top: 180px;
+		background-color: #bebebe;
+		opacity: 0;
+	}/* to remove from mobile page */
 	
 	.welcome_para{
 		float: none;
-		width: 34.693877551%; /* 340px */
-		margin: 2.941176471%; /* 30px */
-		margin-top: -5px;
-		margin-left: 23.5294117647%; /* 700px */
-		padding: 0.588235294%; /* 10px */
-		color: #323232;
-		background-color: #bebebe;
-	}
+		width: 400px;
+		opacity: 0;
+	}/* to remove */
 
 	.wallets{
 		float: none;
-		width: 10.204081633%; /* 100px */
-		margin-top: -60px;
-		margin-left: 0.1%; /* 1px */
-		padding: 1%; 
-		padding-left: 1%;
-		padding-right: 90%; /* 900px */
-		color: #bebebe;
-		background-color: #323232;
-	}
+		opacity: 0;
+	}/* removed from mobile */
 
 	#wallet_img{
 		float: none;
 		width: 301px;
 		height: 192px;
-		margin-top: -430px;
-		margin-left: 3.3333333333%; /* 140px */
+		margin-top: -820px;
+		margin-left: 70px;
 		background-image: url(../images/wallets_mobile.jpg);
 		background-repeat: no-repeat;
 	}
 
 	.sunglasses{
 		float: none;
-		width: 10.204081633%; /* 100px */
-		margin-top: -70px;
-		margin-left: 0.1%; /* 1px */
-		margin-right: 90px; /* 90px */
-		padding: 1%;
-		padding-left: 1%;
-		padding-right: 90%; /* 900px */
-		color: #bebebe;
-		background-color: #323232;
-	}
+		opacity: 0;
+	}/* removed from mobile */
 
 	#sunglass_img{
 		float: none;
 		width: 301px;
 		height: 192px;
-		margin-top: -250px;
-		margin-left: 3%; /* 30px */
-		background-image: url (../images/sunglasses_mobile.jpg);
+		margin-top: 150px;
+		margin-left: 70px;
+		background-image: url(../images/sunglasses_mobile.jpg);
 		background-repeat: no-repeat;
 	}
 	
@@ -1022,10 +1026,10 @@ footer{
 	}
 	
 	.copyright{
-		width: 150px; /* 140px */
+		width: 170px; /* 140px */
 		margin-top: -200px;
 		margin-bottom: 50px;
-		font-size: 1em
+		font-size: 1.125em
 	}
 
 	.bottom_nav{
@@ -1036,26 +1040,380 @@ footer{
 	
 	#fb_icon{
 		float: right;
-		margin-top: -75px;
-		margin-left: 5px;
+		margin-top: -80px;
+		margin-right: 200px;
 	}
 
 	#twitter_icon{
 		float: right;
-		margin-top: -75px;
-		/*margin-right: 15.306122449%; /* 150px */ 
+		margin-top: -80px;
+		margin-right: 140px;
 	}
 
 	#linkedin_icon{
 		float: right;
-		margin-top: -53px;
-		margin-right: 10.204081633%; /* 100px */
+		margin-top: -80px;
+		margin-right: 80px;
 	}
 
 	#insta_icon{
 		float: right;
-		margin-top: -53px;
-		margin-right: 5.102040816%; /* 50px */
+		margin-top: -80px;
+		margin-right: 20px;
+	}
+
+	#e-mail{
+		width: 410px;
+		padding: 10px;
+		margin-left: 10px;
+		margin-top: 40px;
+		margin-bottom: 10px;
+	} /* home page */
+	
+	#email_other{
+		width: 410px;
+		padding: 10px;
+		margin-left: 10px;
+		margin-top: 40px;
+		margin-bottom: 10px;
+	}/* for about, info pages, etc. */
+		
+	#cta_button{
+		display: block;
+		width: 430px;
+		height: 50px;
+		font-size: 4.5em;
+	}
+	
+	.cta_button{
+		margin-top: 10px;
+		margin-left: 10px;
+		margin-bottom: 10px;
+	}
+	
+	#beach_img{
+		float: none;
+		background-image: none;
+		border: none;
+	}/* removed from mobile */
+
+	.weeklystoke{
+		width: 390px;
+		font-size: 3em;
+		text-align: center;
+		margin: 0;
+		margin-top: 200px;
+		padding: 15px;
+		color: #bebebe;
+		background-color: #323232;
+		opacity: 100;
+	}/* for home page */
+	
+	#weeklystoke{
+		width: 420px;
+		font-size: 3em;
+		text-align: center;
+		margin: 0;
+		margin-top: 200px;
+		padding: 15px;
+	}/* for about, info pages etc. */
+	
+/*----------About Page---------*/
+
+	#about{
+		margin-top: 200px;
+		padding: 10px;
+	}
+
+	.first_sent{
+		float: right;
+		width: 220px;
+		margin-top: 20px;
+		margin-right: 40px;
+	}
+
+	#schaeppi{
+		margin-top: 20px;
+	}
+
+	#brief_story{
+		padding: 10px;
+	}
+
+	.kickstarters{
+		width: 400px; /* 400px */
+		margin-left: 2.25%; /* 90px */
+	}
+
+	.kickstarters_list{
+		width: 380px; 
+		margin-left: 40px;
+	}
+
+	#left_column{
+		float: none;
+		width: 400px;
+		margin-left: 20px;
+	}
+
+	#right_column{
+		float: none;
+		width: 400px;
+		margin-top: -20px;
+		margin-left: 20px;
+	}
+	
+/*----------Shop page----------------*/
+
+	
+	#shop_title{
+		margin-top: 200px;
+		opacity: 0;
+	}
+	
+	#shop_info{
+		opacity: 0;
+	}
+
+	#prod_wall_title{
+		width: 410px;
+		margin-top: -110px;
+		padding: 10px;
+		opacity: 0.8;
+	}
+
+	#sunglasses_title{
+		width: 410px;
+		margin-top: 480px;
+		padding: 10px;
+		opacity: 0.8;
+	}
+
+	#roo{
+		float: left;
+		width: 200px;
+	}
+
+	#ole{
+		float: right;
+		width: 200px;
+		margin-right: 10px;
+	}
+
+	#id{
+		float: right;
+		width: 200px;
+		margin-top: 20px;
+		margin-right: 10px;
+	}
+
+	#gentlemen{
+		float: left;
+		width: 200px;
+		margin-top: -195px;
+	}
+
+	#ruby{
+		float: left;
+		width: 150px;
+		margin-left: 50px;
+		margin-top: -20px;
+	}
+
+	#fire{
+		float: right;
+		width: 150px;
+		margin-right: 50px;
+		margin-top: -20px;
+	}
+
+	#blue{
+		float: none;
+		width: 150px;
+		margin-left: 50px;
+		margin-top: 40px;
+	}
+
+	#brown{
+		float: right;
+		width: 150px;
+		margin-right: 50px;
+		margin-top: -195px;
+	}
+
+	#cta_but_ac{
+		display: block;
+		width: 430px;
+		height: 50px;
+		font-size: 4.5em;
+	}
+
+	.cta_but_ac{
+		margin-top: 10px;
+		margin-left: 10px;
+		margin-bottom: 10px;
+	}
+
+/*----------Product Info page--------*/
+
+	#prod_title{
+		margin-top: 200px;
+	}
+
+
+	.pal_para{
+		width: 400px;
+		float: none;
+		padding: 10px;
+	}
+
+	#palette_img{
+		width: 300px;
+		float: none;
+		margin-left: 50px;
+	}
+
+	.surf_para{
+		margin-top: 40px;
+	}
+	
+	#email_info_pg{
+		width: 410px;
+		padding: 10px;
+		margin-left: 10px;
+		margin-top: 40px;
+		margin-bottom: 10px;
+	}
+
+/*----------Get Stoked page----------*/
+
+	#title{
+		margin-top: 210px;
+		margin-left: 5px;
+		padding: 10px;
+	}
+
+	#left{
+		float: none;
+		width: 400px;
+	}
+
+	#right{
+		float: none;
+		width: 400px;
+		margin-left: 10px;
+	}
+
+/*---------Contact page--------------*/
+
+
+	#contact_title{
+		width: 400px;
+		margin-top: 300px;
+		padding: 5px;
+	}
+
+	#name{
+	}
+
+	#name_full{
+		width: 150px;
+	}
+
+	#email{
+		width: 10.204081633%; /* 100px */
+		margin-top: -10px;
+		margin-bottom: -50px;
+		margin-left: 2%; /* 20px */
+		font: 1.875em Franchise, sans serif;
+		color: #323232;
+	}
+
+	#email_cont{
+		width: 150px;
+	}
+
+	.message{
+		width: 10.204081633%; /* 100px */
+		margin-top: 10px;
+		margin-left: 2%; /* 20px */
+		font: 1.875em Franchise, sans serif;
+		color: #323232;
+	}
+
+	#comments{
+		width: 200px;
+	}
+
+	#checkbox{
+		width: 5.102040816%; /* 50px */
+		margin-left: 6%;
+	}
+
+	.chbx_question{
+		width: 400px;
+		margin-top: -18px;
+		margin-left: 60px;
+	}
+
+	#cta_but{
+		display: block;
+		width: 430px;
+		height: 50px;
+		font-size: 4.5em;
+	}
+
+	.cta_but{
+		margin-top: 10px;
+		margin-left: 10px;
+		margin-bottom: 10px;
+	}
+
+	#hours{
+		float: none;
+		width: 440px;
+		height: 60px;
+		margin-top: -490px;
+		padding: 5px;
+		color: #08b300;
+		background-color: #323232;
+	}
+
+	.tele_mb{
+		opacity: 0;
+	}
+	
+	.talk{
+		font-size: 2.5em;
+		opacity: 100;
+	}
+
+	.phone_num{
+		opacity: 0;
+	}
+
+	.twitter_contact{
+		opacity: 0;
+	}
+
+	#mini_twit_icon{
+		opacity: 0;
+	}
+
+	#skype_icon{
+		opacity: 0;
+	}
+
+	.skype_contact{
+		opacity: 0;
+	}
+
+	.hours_op{
+		opacity: 0;
+	}
+	
+	.hours_op_mb{
+		opacity: 0;
 	}
 }
 	
