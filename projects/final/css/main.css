@@ -864,19 +864,241 @@ footer{
 
 /*---------------------------Media Queries----------------------------------------*/
 
-/*-----------------------------Below 980-----------------------------------------*/
+/*---------------------Below 980 (Desktop)----------------------------------------*/
 
 @media only screen and (max-width: 979px){
+	#logo{
+		width: 900px;
+		margin: 0;
+		margin-top: -60px;
+		margin-left: 5px;
+		background-image: url(../images/logo.jpg);
+		background-repeat: no-repeat;
+	}
 	
+	.cart_items{
+		width: 150px;
+	}
+	
+	.cart_links{
+		float: right;
+		width: 200px;
+		margin-top: -180px;
+		margin-right: 0;
+	}
+	
+	#search{
+		float: right;
+		width: 138px;
+		margin-top: -110px;
+	}
+	
+	#nav2{
+		width: 440px;
+		margin-top: -43px;
+		margin-left: 230px;
+		margin-right: 140px;
+	}
+	
+	.weeklystoke{
+		width: 230px;
+		margin-top: 120px;
+	}/* for home page */
+	
+	#e-mail{
+		width: 200px;
+		margin-top: 570px;
+	} /* home page */
+	
+	.copyright{
+		width: 150px;
+		font-size: 0.9375em
+	}
+
+	.bottom_nav{
+		width: 400px;
+		margin-top: -55px;
+		margin-left: 195px;
+	}	
+	
+	#fb_icon{
+		margin-top: -50px;
+	}
+
+	#twitter_icon{
+		margin-top: -50px;
+	}
+
+	#linkedin_icon{
+		margin-top: -50px;
+	}
+
+	#insta_icon{
+		margin-top: -50px;
+	}
+	
+	.wallets{
+		margin-top: -70px;
+	}
+	
+	#wallet_img{
+		margin-top: -450px;
+	}
+
+	.sunglasses{
+		margin-top: -70px;
+	}
+
+	#sunglass_img{
+		margin-top: -280px;
+	}
+
+	#beach_img{
+		margin-top: -170px;
+	}
 }
 
-/*------------------------------Below 760-----------------------------------------*/
+/*---------------------------Below 760 (Tablet)-----------------------------------*/
 
 @media only screen and (max-width: 759px){
+	#es_banner{
+		width: 470px;
+		font: 0.9375em;
+	}
 	
+	#search{
+		width: 142px;
+	}
+	
+	.wallets{
+		margin-top: -50px;
+	}
+	
+	#wallet_img{
+		margin-top: -550px;
+	}
+
+	#sunglass_img{
+		margin-top: -390px;
+	}
+
+	#beach_img{
+		margin-top: -230px;
+	}
+	
+	.weeklystoke{
+		width: 170px;
+		font-size: 1.5em;
+	}/* for home page */
+	
+	#e-mail{
+		margin-top: 610px;
+	} /* home page */
+	
+	#cta_button{
+		width: 100px;
+	}
+	
+	.cta_button{
+		margin-top: -40px;
+		margin-left: 250px;
+	}
+	
+	#welcome{
+		width: 200px;
+		margin-top: 30px;
+		margin-right: 17px;
+	}
+
+	.welcome_para{
+		width: 255px;
+		margin-top: -15px;
+	}
+	
+	footer{
+		margin: 0;
+	}
+	
+	.copyright{
+		font-size: 0.8em;
+		margin-top: -40px;
+	}
+
+	.bottom_nav{
+		font-size: 0.7em;
+		margin-top: -42px;
+	}
+	
+	#fb_icon{
+		margin-top: -45px;
+		margin-right: 150px;
+	}
+
+	#twitter_icon{
+		margin-top: -45px;
+		margin-right: 110px;
+	}
+
+	#linkedin_icon{
+		margin-top: -45px;
+	}
+
+	#insta_icon{
+		margin-top: -45px;
+		margin-right: 20px;
+	}
+	
+	#cta_but_ac{
+		width: 100px;
+	}
+
+	.cta_but_ac{
+		margin-left: 520px;
+	}
+	
+	#email_other{
+		margin-top: 520px;
+		margin-bottom: 10px;
+	}
+
+	#email_info_pg{
+		margin-top: 520px;
+		margin-left: -270px;
+		margin-bottom: 20px;
+	}
+	
+	#weeklystoke{
+		margin-top: 10px;
+	}/* all pages but index.html */
+	
+	#right_column{
+		float: none;
+		opacity: 0;
+	}
+	
+	.kickstarters_list{	
+		padding: 20px;
+	}
+
+	#left_column{
+		float: none;
+		opacity: 0;
+	}
+	
+	#hours{
+		margin-right: 5px;
+	}
+	
+	.chbx_question{
+		width: 300px;
+	}
+	
+	.cta_but{
+		margin-top: -40px;
+	}
 }
 
-/*------------------------Below 480-------------------------*/
+/*------------------------Below 480 (Mobile)-------------------------*/
 @media only screen and (max-width: 479px){
 	body{
 		margin-left: 10px;
@@ -884,7 +1106,7 @@ footer{
 	}
 	
 	#wrapper{
-		width: 450px; /* 450px */
+		width: 450px;
 		background-image: none;
 		background-color: #bebebe;
 	}
@@ -899,20 +1121,20 @@ footer{
 	}
 	
 	header{
-		width: 335px; /* 335px */
+		width: 335px;
 		background-image: none;
 	}
 	
 	.cart_items{
 		float: none;
-		width: 110px; /* 110px */
+		width: 110px;
 		margin-top: -100px;
 		margin-left: 5px;
 	}
 
 	.cart_links{
 		float: right;
-		width: 140px; /* 140px */
+		width: 140px;
 		margin-top: -215px;
 		margin-left: 100px;
 	}
@@ -953,7 +1175,7 @@ footer{
 	#nav2{
 		float: right;
 		overflow: hidden;
-		width: 220px; /* 220px */
+		width: 220px;
 		margin-top: -185px;
 		margin-bottom: 10px;
 		margin-right: -115px;
@@ -1011,7 +1233,7 @@ footer{
 		float: none;
 		width: 301px;
 		height: 192px;
-		margin-top: 150px;
+		margin-top: 100px;
 		margin-left: 70px;
 		background-image: url(../images/sunglasses_mobile.jpg);
 		background-repeat: no-repeat;
@@ -1026,7 +1248,7 @@ footer{
 	}
 	
 	.copyright{
-		width: 170px; /* 140px */
+		width: 170px;
 		margin-top: -200px;
 		margin-bottom: 50px;
 		font-size: 1.125em
@@ -1066,7 +1288,7 @@ footer{
 		width: 410px;
 		padding: 10px;
 		margin-left: 10px;
-		margin-top: 40px;
+		margin-top: 60px;
 		margin-bottom: 10px;
 	} /* home page */
 	
@@ -1102,7 +1324,7 @@ footer{
 		font-size: 3em;
 		text-align: center;
 		margin: 0;
-		margin-top: 200px;
+		margin-top: 400px;
 		padding: 15px;
 		color: #bebebe;
 		background-color: #323232;
@@ -1311,9 +1533,6 @@ footer{
 		width: 400px;
 		margin-top: 300px;
 		padding: 5px;
-	}
-
-	#name{
 	}
 
 	#name_full{
